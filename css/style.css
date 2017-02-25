@@ -66,30 +66,30 @@ main{
 	left: 0;
 	padding: 27px 0 0 31px;
 }
-.form-logo{
+.dev-form-logo{
 	float: left;
 	margin-right: 10px;
 }
-.form-title{
+.dev-form-title{
 	color:  #1b1c1d;
 	font-size: 24px;
 	font-weight: 700;
 	margin: 4px 0 0 0;
 	line-height: 20px;
 }
-.form-text{
+.dev-form-text{
 	color:  #797b7f;
 	font-size: 13px;
 	line-height: 20px;
 	margin: 16px 35px 34px 0;
 }
-.form-text__log-in{
+.dev-form-text__log-in{
 	color:  #ea355a;
 }
-.form-text__log-in:hover{
+.dev-form-text__log-in:hover{
 	color: #0000ff;
 }
-.form__input{
+.dev-form__input{
 	border: none;
 	outline: none;
 	border-radius: 4px;
@@ -100,14 +100,14 @@ main{
 	padding-left: 14px;
 	margin-bottom: 15px;
 }
-.form__input:first-child{
+.dev-form__input:first-child{
 	margin-right: 10px;
 }
-.form__input:nth-child(3),
-.form__input:nth-child(4){
+.dev-form__input:nth-child(3),
+.dev-form__input:nth-child(4){
 	width: 400px;
 }
-.form__submit{
+.dev-form__submit{
 	background-color:  #ea355a;
 	box-shadow: 0 3px 0 0 #bd1962;
 	width: 400px;
@@ -119,10 +119,10 @@ main{
 	font-size: 18px;
 	font-weight: 700;
 }
-.form__submit:hover{
+.dev-form__submit:hover{
 	color:  #0000ff;
 }
-.form__submit:active {
+.dev-form__submit:active {
 	box-shadow: none;
 	transition-duration: 0s;
 	transition-property: transform;
@@ -130,13 +130,13 @@ main{
 	-moz-transform: translateY(1px);
 	transform: translateY(3px);
 }
-.form-text:last-child{
+.dev-form-text:last-child{
 	margin-top: 27px;
 	font-size: 12px;
 }
-.form-text__links{
+.dev-form-text__links{
 	color: #e52e66;
 }
-.form-text__links:hover{
+.dev-form-text__links:hover{
 	color: #0000ff;
 }

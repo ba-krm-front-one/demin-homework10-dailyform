@@ -124,7 +124,11 @@ main{
 }
 .form__submit:active {
 	box-shadow: none;
-	margin-top: 3px;
+	transition-duration: 0s;
+	transition-property: transform;
+	-webkit-transform: translateY(1px);
+	-moz-transform: translateY(1px);
+	transform: translateY(3px);
 }
 .form-text:last-child{
 	margin-top: 27px;
